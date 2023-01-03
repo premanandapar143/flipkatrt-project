@@ -1,0 +1,191 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+}
+body{
+  background-color:#ccc;
+}
+.box{
+  max-width: 1000px;
+  padding: 0;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow:3px 3px 3px rgba(1, 1, 1, 0.2) ;
+  border-radius: 10px;
+}
+section{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+.left-panel{
+  height: auto;
+  
+}
+section .right-panel{
+  margin-top: 15%;
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  height: 100%;
+} 
+.detail{
+  margin-top: 15%;
+}
+
+.right-panel h2{
+  display: inline-block;
+  margin-right: 73%;
+}
+.right-panel h5{
+  text-align: left;
+  display: inline-block;
+  background:transparent;
+  color: #bbc4c2;
+  font-weight:300;
+  margin-right: 5%;
+}
+
+section .right-panel .detail .emailBx{
+  margin-bottom: 15px;
+}
+section .right-panel .detail .emailBx label{
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color:black ;
+  font-weight:300;
+  font-size: 14px;
+  margin-right: 44%;
+}
+section .right-panel .detail .pwdBx label{
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: black;
+  font-weight:300;
+  font-size: 14px;
+  margin-right: 60%;
+}
+section .right-panel .detail .emailBx input
+{
+  width: 70%;
+  padding: 5px 35px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #607d8b;
+  font-size: 16px;
+  color: #bbc4c2;
+  letter-spacing: 1px;
+  background: transparent;
+  border-radius: 30px;
+  margin-right: 17%;
+
+}
+section .right-panel .detail .pwdBx input{
+  width: 70%;
+  padding: 5px 15px;
+  outline: none;
+  font-weight: 400;
+  border: 1px solid #607d8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: transparent;
+  color: #bbc4c2;
+  border-radius: 30px;
+  margin-right: 18%;
+  margin-bottom: 6%;
+}
+
+
+section .right-panel .detail .pwdBx a{
+  margin-left: 40%;
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color:rgb(255, 102, 0) ;
+  font-weight:300;
+  font-size: 14px;
+}
+section .right-panel .detail .inputBx{
+  margin-right: 14%;
+}
+section .right-panel .detail .inputBx button{
+  width: 38%;
+  padding: 9px 20px;
+  outline: none;
+  font-weight: 300;
+  box-decoration-break: 1px solid #607d8b;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color:white;
+  background:transparent;
+  background-color: #1E90ff;
+  border-radius: 30px;
+  box-shadow:3px 3px 3px rgba(1, 1, 1, 0.2) ;
+}
+section .right-panel .detail .inputBx input{
+  width: 40%;
+  margin-top: 0%;
+  padding: 6px 20px;
+  outline: none;
+  font-weight: 300;
+  box-decoration-break: 1px solid #1E90ff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color:#1E90ff;
+  border-radius: 30px;
+  border-color:#1E90ff ;
+  box-shadow:3px 3px 3px rgba(1, 1, 1, 0.4) ;
+}
+section .footer{
+  margin-top: 30%;
+  margin-left: 6%;
+  color: #bbc4c2;
+}
+.logpnl{
+
+ margin-left: 10%;
+
+}
+.forgot{
+  
+  
+  
+  
+ 
+  text-decoration: none;
+  
+  
+  
+  margin-right: 10%;
+  margin-top: 0.1%;
+}
+.inputBx input{
+  margin-left: 5%;
+}
+.input-field {
+  width: 100%;
+  padding: 2px;
+  text-align: center;
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  min-width: 50px;
+  text-align: center;
+  margin-left: 14%;
+}
